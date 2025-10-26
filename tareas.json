@@ -1,0 +1,142 @@
+[
+  {
+    "id": "mh6xt627uf8",
+    "titulo": "Comer Empanadas",
+    "descripcion": "Estan en la heladera, hay que calentarlas",
+    "estado": {
+      "clave": 1,
+      "char": "p",
+      "texto": "Pendiente"
+    },
+    "dificultad": {
+      "clave": 3,
+      "char": "d",
+      "texto": "difícil",
+      "visual": "⭐⭐⭐"
+    },
+    "fechaCreacion": "2025-10-25T23:54:55.087Z",
+    "fechaUltimaEdicion": "2025-10-25T23:54:55.087Z",
+    "fechaVencimiento": null,
+    "costo": null
+  },
+  {
+    "id": "mh6xvfsoi2x",
+    "titulo": "Hacer Ejercicio",
+    "descripcion": "press bank militar",
+    "estado": {
+      "clave": 1,
+      "char": "p",
+      "texto": "Pendiente"
+    },
+    "dificultad": {
+      "clave": 3,
+      "char": "d",
+      "texto": "difícil",
+      "visual": "⭐⭐⭐"
+    },
+    "fechaCreacion": "2025-10-25T23:56:41.016Z",
+    "fechaUltimaEdicion": "2025-10-25T23:56:41.016Z",
+    "fechaVencimiento": null,
+    "costo": null
+  },
+  {
+    "id": "mh6y0rk6s6i",
+    "titulo": "comer",
+    "descripcion": "clear",
+    "estado": {
+      "clave": 1,
+      "char": "p",
+      "texto": "Pendiente"
+    },
+    "dificultad": {
+      "clave": 1,
+      "char": "f",
+      "texto": "fácil",
+      "visual": "⭐☆☆"
+    },
+    "fechaCreacion": "2025-10-26T00:00:49.542Z",
+    "fechaUltimaEdicion": "2025-10-26T00:00:49.542Z",
+    "fechaVencimiento": null,
+    "costo": null
+  },
+  {
+    "id": "mh6y1dfiuzi",
+    "titulo": "comer",
+    "descripcion": "empanadas",
+    "estado": {
+      "clave": 1,
+      "char": "p",
+      "texto": "Pendiente"
+    },
+    "dificultad": {
+      "clave": 1,
+      "char": "f",
+      "texto": "fácil",
+      "visual": "⭐☆☆"
+    },
+    "fechaCreacion": "2025-10-26T00:01:17.886Z",
+    "fechaUltimaEdicion": "2025-10-26T00:01:17.886Z",
+    "fechaVencimiento": null,
+    "costo": null
+  },
+  {
+    "id": "mh6y1owoz7h",
+    "titulo": "cantar",
+    "descripcion": "en el baño",
+    "estado": {
+      "clave": 1,
+      "char": "p",
+      "texto": "Pendiente"
+    },
+    "dificultad": {
+      "clave": 1,
+      "char": "f",
+      "texto": "fácil",
+      "visual": "⭐☆☆"
+    },
+    "fechaCreacion": "2025-10-26T00:01:32.760Z",
+    "fechaUltimaEdicion": "2025-10-26T00:01:32.760Z",
+    "fechaVencimiento": null,
+    "costo": null
+  },
+  {
+    "id": "mh6y5nffvwq",
+    "titulo": "comer",
+    "descripcion": "ammigos",
+    "estado": {
+      "clave": 1,
+      "char": "p",
+      "texto": "Pendiente"
+    },
+    "dificultad": {
+      "clave": 3,
+      "char": "d",
+      "texto": "difícil",
+      "visual": "⭐⭐⭐"
+    },
+    "fechaCreacion": "2025-10-26T00:04:37.467Z",
+    "fechaUltimaEdicion": "2025-10-26T00:04:37.467Z",
+    "fechaVencimiento": null,
+    "costo": null
+  },
+  {
+    "id": "mh6yvsaglir",
+    "titulo": "reier",
+    "descripcion": "de videos",
+    "estado": {
+      "clave": 1,
+      "char": "p",
+      "texto": "Pendiente"
+    },
+    "dificultad": {
+      "clave": 3,
+      "char": "d",
+      "texto": "difícil",
+      "visual": "⭐⭐⭐"
+    },
+    "fechaCreacion": "2025-10-26T00:24:56.824Z",
+    "fechaUltimaEdicion": "2025-10-26T00:24:56.824Z",
+    "fechaVencimiento": null,
+    "costo": null
+  }
+]
