@@ -1,0 +1,25 @@
+
+
+1. Generalización Simbólica (Reglas Escritas del Lenguaje)
+
+    La generalización simbólica se refiere a las reglas formales de JavaScript, especialmente en su modelo de Programación Orientada a Objetos (POO) basado en prototipos:
+
+    Definición de Tipos: Los objetos tipo "clase" se definen mediante funciones constructoras invocadas con new.
+
+    Herencia Prototipal: La herencia se establece a través de la propiedad prototype. Los objetos instanciados heredan métodos y propiedades siguiendo la cadena de prototipos (__proto__).
+
+    Propiedad this: Dentro de un constructor, this referencia el nuevo objeto. Su contexto es dinámico y puede ser manipulado con .call(), .apply(), o .bind().
+
+    Encadenamiento: El lenguaje implementa la búsqueda de propiedades y métodos recorriendo la cadena prototipal hasta encontrar la propiedad o llegar a null.
+
+2. Creencias de los Profesionales (Características que se creen "Mejores")
+
+    Las creencias reflejan los valores de la comunidad de desarrolladores de JavaScript que consideran ventajosas ciertas características del lenguaje:
+
+    Universalidad ("Un solo lenguaje para todo"): La capacidad única de JavaScript (Node.js) para ejecutarse tanto en el frontend (navegador) como en el backend es considerada superior, ya que simplifica la pila tecnológica y permite compartir código y talento.
+
+    Flexibilidad Prototipal: Muchos desarrolladores valoran el modelo prototipal por ser más dinámico y adaptable que la herencia clásica basada en clases (Ej: facilidad para implementar patrones como Mixins en tiempo de ejecución).
+
+    Asincronía No Bloqueante: El manejo asíncrono basado en el Event Loop (usando Promises y async/await) se percibe como inherentemente más eficiente para manejar operaciones de Entrada/Salida (I/O) intensivas (red, base de datos) que los modelos síncronos o multihilo.
+
+    Naturaleza Funcional: La compatibilidad con paradigmas funcionales (funciones como ciudadanos de primera clase) permite un código más conciso y declarativo (Ej: el uso de .map(), .filter(), y .reduce()).

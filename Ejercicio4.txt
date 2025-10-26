@@ -1,0 +1,47 @@
+
+Ejercicio 4: Uso de Características de la POO en el Sistema ToDo
+La resolución del sistema ToDo List en Node.js se basó fuertemente en la Programación Orientada a Objetos (POO) para organizar y modularizar el código. Se utilizaron el Encapsulamiento, la Abstracción y, en menor medida, la Herencia, mientras que el Polimorfismo no se implementó.
+
+Características de la POO Utilizadas
+1. Encapsulamiento 🛡️
+El encapsulamiento se refiere a agrupar los datos (atributos) con los métodos que operan sobre ellos, y restringir el acceso directo a la manipulación interna.
+
+Fundamentación: Se utilizó para crear unidades lógicas y autocontenidas, reduciendo la complejidad del sistema general.
+
+Ejemplo de Implementación:
+
+Clase Tarea: Encapsula todos los atributos de una tarea (título, estado, dificultad, fechas) y solo expone la lógica para mostrarlos (aCadenaDeVisualizacion).
+
+Clase GestorDeTareas: Encapsula la colección interna de tareas (this.tareas) y la lógica de persistencia (cargarTareas, guardarTareas), obligando al resto del sistema a interactuar solo a través de métodos públicos (agregarTarea, filtrarTareas, editarTarea).
+
+2. Abstracción 🧠
+La abstracción consiste en mostrar solo los detalles relevantes al usuario (o a otras partes del sistema) y ocultar la complejidad interna.
+
+Fundamentación: Se utilizó para simplificar la interacción entre los módulos del sistema, separando la lógica de la interfaz.
+
+Ejemplo de Implementación:
+
+Clase SistemaToDo: Abstrae al usuario final (Olivia) de cómo se guardan o buscan las tareas. Los menús solo muestran opciones como "Buscar una Tarea" y dependen de los métodos del GestorDeTareas sin saber si los datos están en un arreglo o en un archivo JSON.
+
+Clase Tarea: Abstrae la complejidad de la representación de la dificultad. El gestor solo manipula un objeto dificultad interno, pero el método aCadenaDeVisualizacion se encarga de mostrar la representación simbólica ⭐⭐☆ al usuario final.
+
+3. Herencia (Parcial) 🌲
+La herencia permite que una clase (subclase) adquiera las propiedades y métodos de otra (superclase).
+
+Fundamentación: Si bien no se utilizó una herencia directa entre las clases principales, se usó un concepto de herencia funcional a través de la composición y el uso de un módulo base de utilidades.
+
+Ejemplo de Implementación:
+
+La clase SistemaToDo "hereda" o reutiliza la funcionalidad de entrada/salida de la consola importando y usando las funciones del módulo UtilidadesCLI (preguntar, mostrarMenu, pausar).
+
+Características de la POO No Implementadas
+4. Polimorfismo 🎭
+El polimorfismo (del griego "muchas formas") permite que objetos de diferentes clases respondan a la misma llamada de método de maneras distintas, generalmente a través de la herencia o de la implementación de una interfaz.
+
+Fundamentación: Esta característica no fue utilizada ni implementada porque el sistema maneja un único tipo de entidad: la Tarea.
+
+Justificación de la Ausencia:
+
+No fue necesario crear subtipos de tareas (Ej: TareaPersonal, TareaLaboral) que requirieran manejar el mismo método (guardar, mostrarDetalle) de manera diferente.
+
+Toda la lógica de filtrado y visualización se pudo resolver con un único método de clase en GestorDeTareas (filtrarTareas) y un único método de instancia en Tarea (aCadenaDeVisualizacion), por lo que no hubo necesidad de aplicar el principio de polimorfismo.
